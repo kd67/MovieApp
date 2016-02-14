@@ -3,14 +3,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/gridview"
-    android:columnWidth="90dp"
-    android:numColumns="auto_fit"
-    android:horizontalSpacing="0dp"
-    android:verticalSpacing="0dp"
+
+    android:numColumns="2"
+    android:horizontalSpacing="5dp"
+    android:verticalSpacing="5dp"
     android:stretchMode="columnWidth"
     tools:showIn="@layout/activity_main"
     tools:context="nano.com.movieapp.MovieFragment">
-
-
-
 </GridView>
